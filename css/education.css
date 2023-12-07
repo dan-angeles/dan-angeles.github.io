@@ -11,7 +11,7 @@ Malibu #98C8F9
 /* HEADER
 -----------------------*/
 .education header::before{
-    background: url(../images/education/vsl.JPG) no-repeat;
+    background: url(../images/education/vsl.png) no-repeat;
     background-size: cover;
     background-position:center;
     content:""; /*psuedo property will only work if you put the content attribute*/
