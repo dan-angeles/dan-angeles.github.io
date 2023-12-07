@@ -18,12 +18,6 @@ a:hover{
     color: #BCCFC0;
     text-decoration: none;
 }
-.content-wrapper{
-    margin: 10px auto;
-    padding:30px;
-    max-width:900px;
-}
-
 
 /* MAIN
 -----------------------*/
@@ -81,6 +75,12 @@ a:hover{
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
+}
+
+.content-wrapper{
+    margin: 10px auto;
+    padding:30px;
+    max-width:900px;
 }
 
 @media screen and (max-width:800px) {
