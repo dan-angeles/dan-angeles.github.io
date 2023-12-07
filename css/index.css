@@ -1,0 +1,109 @@
+/*
+COLOR PALETTE
+
+Off-White #f6f6f6
+Danube #5887CA
+Cabbage Pont #3F4A37
+Powder Ash #BCCFC0
+Malibu #98C8F9
+Hampton #E6D5A9
+Norway #AFBEA2
+*/
+
+/* links */
+a {
+    color:#5887CA;
+}
+a:hover{
+    color: #BCCFC0;
+    text-decoration: none;
+}
+.content-wrapper{
+    margin: 10px auto;
+    padding:30px;
+    max-width:900px;
+}
+
+
+/* MAIN
+-----------------------*/
+
+/* home-page
+-----------------------*/
+.homepage {
+    background: url(../images/index/bg-melb-3000.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage .content-wrapper {
+    flex: 1 0 auto;
+}
+
+.homepage-bg-color {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.index-list li{
+    list-style-type: none;
+    padding: 0;
+    display: flow-root;
+    margin: 20px 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.content-wrapper section{
+    display: flow-root;
+    margin: 20px 0;
+}
+.content-wrapper h3{
+    margin: 0;
+    padding: 0;
+}
+.content-wrapper .melbpic img{
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+.content-wrapper .projwebsite img{
+    width: 300px;
+    float: right;
+    margin-left: 20px;
+}
+
+.content-wrapper .zoopic img{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:800px) {
+    .index-list li{
+        display: block;
+    }
+    .index-list {
+        padding-bottom: 10px;
+        padding-right: 10px;
+    }
+    .content-wrapper .melbpic img{
+        float:none;
+        padding-bottom: 10px;
+    }
+    
+    .content-wrapper .projwebsite img{
+        float: none;
+        margin-left: 0px;
+        padding-bottom: 10px;
+    }
+    
+    .content-wrapper .zoopic img{
+        float: none;
+    }
+    
+}

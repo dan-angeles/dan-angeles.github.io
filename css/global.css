@@ -1,0 +1,84 @@
+
+/* GLOBAL STYLES
+-----------------------*/
+
+/* Box Model fix*/
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+body {
+    background: #f6f6f6;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+
+h1,h2,h3{
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+}
+h1 {
+    font-size: 6rem;
+    line-height: 1.4;
+}
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+/* define the space in which the text will appear in the webpage*/
+.content-wrapper {
+    margin: 0 auto;
+    padding:20px;
+    max-width:900px;
+}
+
+.btn{
+    background: #3F4A37;
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display:inline-block;
+    white-space: nowrap;
+    font-size: 1.2rem;
+    padding: 7px;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    border-radius: 5px;
+    position: fixed;
+    top:5px;
+    left: 5px;
+}
+.btn:hover{
+    color:#BCCFC0;
+    text-decoration: none;
+}
+/* Media queries
+-----------------------*/
+@media screen and (max-width:1170px) {
+    .btn{
+        position: absolute;
+    }
+}
+@media screen and (max-width:560px){
+    h1 {
+        font-size: 4rem;
+        line-height: 1.4;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+}

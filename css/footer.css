@@ -1,0 +1,46 @@
+/* FOOTER
+-----------------------*/
+footer{
+    background: #3F4A37;
+    color: #AFBEA2;
+    display: flex;
+    justify-content: space-between;
+   padding: 0 20px;
+}
+footer a{
+    color: #AFBEA2;
+}
+footer a:hover {
+    color: #E6D5A9;
+}
+/*remove the bullet style listing*/
+.socials{
+    list-style-type: none;
+    padding:0;
+}
+/*make the menu items appear side by side*/
+.socials li{
+    display:inline-block;
+}
+/*set image sizes of items*/
+.socials img{
+    width: 32px;
+    margin-left: 10px;
+}
+.socials img:hover{
+    opacity:0.5;
+}
+@media screen and (min-width: 860px){
+    footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: 859px){
+    footer {
+        text-align: center;
+        padding: 10px;
+    }
+
+}

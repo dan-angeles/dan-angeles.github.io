@@ -1,0 +1,44 @@
+/*
+COLOR PALETTE
+
+Off-White #f6f6f6
+Danube #5887CA
+Cabbage Pont #3F4A37
+Powder Ash #BCCFC0
+Malibu #98C8F9
+*/
+
+/* Header
+-----------------------*/
+.workexperience header::before{
+    background: url(../images/workexperience/flinders.JPG) no-repeat;
+    background-size: cover;
+    background-position: center;
+    content:"";/*psuedo property will only work if you put the content attribute*/
+    display:block;
+    height:400px;
+}
+
+/* MAIN
+-----------------------*/
+
+.content-wrapper .work-item{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    column-gap: 20px;
+}
+
+.work-details{
+    margin:0;
+}
+.work-summary li{
+    margin:0;
+}
+
+/* Media queries
+-----------------------*/
+@media screen and (max-width:700px) {
+    .content-wrapper .work-item{
+        display: inline-block;
+    }    
+}

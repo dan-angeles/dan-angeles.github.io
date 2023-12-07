@@ -1,0 +1,114 @@
+/*
+COLOR PALETTE
+
+Off-White #f6f6f6
+Danube #5887CA
+Cabbage Pont #3F4A37
+Powder Ash #BCCFC0
+Malibu #98C8F9
+*/
+
+/* HEADER
+-----------------------*/
+.education header::before{
+    background: url(../images/education/vsl.jpg) no-repeat;
+    background-size: cover;
+    background-position:center;
+    content:""; /*psuedo property will only work if you put the content attribute*/
+    display: block;
+    height: 400px;
+}
+
+/* MAIN
+-----------------------*/
+/*defining the spacing in between sections*/
+.certifications-section {
+    margin-bottom: 50px;
+}
+.more-info {
+    font-size: 1.2rem;
+}
+/* to define the dashing above the title line*/
+.certifications-section h2 {
+    border-bottom: 2px dashed  lightslategray;
+}
+/*remove the bullet style listing*/
+.certifications-list{
+    list-style-type: none;
+    padding:0;
+}
+/*block formatting context*/
+.certifications-list li{
+    margin: 20px 0;
+}
+
+.certifications-list img{
+    width:200px;
+}
+
+.tertiary-edu-section{
+    margin-bottom: 50px;
+}
+/* to define the dashing above the title line*/
+.tertiary-edu-section h2{
+    border-bottom: 2px dashed lightslategray;
+}
+/*block formatting context*/
+.tertiary-edu-list li{
+    margin: 20px 0;
+}
+/* defining the positioning of images through float*/
+.tertiary-edu-list img{
+    width: 200px;
+}
+/* defining the positioning of images through float*/
+.tertiary-edu-list .gold-thesis img{
+    width: 300px;
+}
+
+/*remove the bullet style listing*/
+.tertiary-edu-list{
+    list-style-type: none;
+    padding:0;
+}
+
+
+/* Media queries
+-----------------------*/
+@media screen and (min-width:760px) {
+    .certifications-list li{
+        display: flow-root;
+    }
+    .certifications-list img{
+        float:left;
+        margin-right: 20px;
+    }
+    .tertiary-edu-list li{
+        display: flow-root;
+    }
+    .tertiary-edu-list img{
+        float: left;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width:560px) and (max-width:759px) {
+    .certifications-list {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 20px;
+    }
+    .tertiary-edu-list .gold-thesis {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 20px;
+    }
+}
+
+@media screen and (min-width:590px) {
+    .tertiary-edu-list .gold-thesis img{
+        float: right;
+        margin-left: 20px;
+    }
+}
+

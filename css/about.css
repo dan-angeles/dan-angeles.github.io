@@ -1,0 +1,26 @@
+.homepage {
+    background: url(../images/about/flindersfront_resized.JPG) no-repeat;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage .content-wrapper {
+    flex: 1 0 auto;
+}
+
+.homepage-bg-color {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.content-wrapper section{
+    display: flow-root;
+    margin: 20px 0;
+}
+
+.content-wrapper {
+    margin: 10px auto;
+    padding:30px;
+    max-width:900px;
+}
