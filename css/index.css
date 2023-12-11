@@ -107,3 +107,38 @@ a:hover{
     }
     
 }
+
+@media screen and (max-width:450px) {
+    .content-wrapper{
+        margin-top:20px;
+        padding:0px;
+        margin-left: 5px;
+        max-width:450px;
+    }
+    .index-list li{
+        display: block;
+    }
+    .index-list {
+        padding-bottom: 5px;
+        padding-right: 0px;
+    }
+    .content-wrapper .melbpic img{
+        float:none;
+        padding-bottom: 5px;
+    }
+    
+    .content-wrapper .projwebsite img{
+        float: none;
+        margin-left: 0px;
+        padding-bottom: 5px;
+    }
+    
+    .content-wrapper .zoopic img{
+        float: none;
+    }
+
+    footer{
+        width:103%;
+    }
+    
+}
