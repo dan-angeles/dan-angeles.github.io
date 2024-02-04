@@ -24,3 +24,12 @@
     padding:30px;
     max-width:900px;
 }
+
+@media screen and (max-width: 2000px){
+    footer {
+        position: absolute;
+        width: 100%;
+        justify-content: space-between;
+        bottom:0;
+    }
+}
